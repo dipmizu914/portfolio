@@ -6,7 +6,7 @@
       <v-hover>
          
         <v-card tile slot-scope="{hover}" :to="item.link"> 
-            <v-img :src="require('@/assets/works/' + item.image)" aspect-ratio=1.0 > 
+            <v-img :src="require('@/assets/works/' + item.image)" aspect-ratio=1.0 eager> 
               <div class="fill-height" :class="hover || $vuetify.breakpoint.xs ? 'bottom-gradient' : 'none'" >
                 <v-card-title v-if="hover || $vuetify.breakpoint.xs" class="white--text headline font-weight-light" >{{item.title}}</v-card-title>
                 <v-card-text v-if="hover || $vuetify.breakpoint.xs" class="white--text caption font-weight-light">{{item.desc}}</v-card-text>
@@ -19,7 +19,7 @@
     <v-flex v-for="item in items_ext" :key="item.title" xs12 sm6 md3>
       <v-hover>
         <v-card tile slot-scope="{hover}" :href="item.link" target="_blank" rel="noopener noreferrer">
-            <v-img :src="require('@/assets/works/' + item.image)" aspect-ratio=1.0>
+            <v-img :src="require('@/assets/works/' + item.image)" aspect-ratio=1.0 eager>
               <div class="fill-height" :class="hover || $vuetify.breakpoint.xs ? 'bottom-gradient' : 'none'">
                 <v-card-title v-if="hover || $vuetify.breakpoint.xs" class="white--text headline font-weight-light">{{item.title}}</v-card-title>
                 <v-card-text v-if="hover || $vuetify.breakpoint.xs" class="white--text caption font-weight-light">{{item.desc}}</v-card-text>

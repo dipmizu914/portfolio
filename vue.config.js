@@ -8,10 +8,6 @@ module.exports = {
   assetsDir: '',
   outputDir:'docs',
 
-  chainWebpack: config => {
-    config.plugin('VuetifyLoaderPlugin').tap(args => [{
-      progressiveImages: true
-    }])
-  }
+  
   
 }
