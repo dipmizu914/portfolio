@@ -1,5 +1,5 @@
 <template>
-<v-content>
+
   <v-layout row wrap >
    
     <v-flex v-for="item in items_int" :key="item.title" xs12 sm6 md3>
@@ -30,7 +30,7 @@
       </v-hover>
     </v-flex>
   </v-layout>
-</v-content>
+
 </template>
 
 <script>
