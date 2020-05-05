@@ -1,29 +1,71 @@
-Home
-<div>
-    <v-layout>
-      <v-flex>
-        <v-parallax :src="require('../assets/parallax.png')" height=400>
-          <v-layout align-center column justify-center>
-            <h1 class="display-3 font-weight-thin mb-3">Mathematics × Programming</h1>
-            <h4 class="subheading font-weight-light">good balance of theory and implementation</h4>
-          </v-layout>
-        </v-parallax>
-      </v-flex>
-    </v-layout>
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import About from '../views/About.vue'
 
-    <v-container fluid>
-      <v-card flat>
-        <v-card-title>
-          <h2 class="display-1 font-weight-thin">I am interested in ...</h2>
-        </v-card-title>
+Vue.use(VueRouter)
 
-        <v-container xs12>
-          <v-layout row justify-center wrap>
-            <v-flex sm6 xs12 v-for="card in cards" :key="card.title">
-              <Card :title="card.title" :desc="card.desc" :image="card.image" />
-            </v-flex>
-          </v-layout>
-        </v-container>
-      </v-card>
-    </v-container>
-  </div>
+  const routes = [
+  {
+    path: '/',
+    name: 'About',
+    component: About
+  },
+  {
+    path: '/works',
+    name: 'Works',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Works.vue')
+  },
+  
+  {
+    path: '/Vtuber',
+    name: 'Vtuber',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/works/Vtuber.vue')
+  },
+  {
+    path: '/PathEngine',
+    name: 'PathEngine',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/works/PathEngine.vue')
+  },
+  {
+    path: '/ARcity',
+    name: 'ARcity',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/works/ARcity.vue')
+  },
+  {
+    path: '/ARmodeling',
+    name: 'ARmodeling',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/works/ARmodeling.vue')
+  },
+  {
+    path: '/ARsakura',
+    name: 'ARsakura',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/works/ARsakura.vue')
+  }
+
+]
+
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes
+})
+
+export default router

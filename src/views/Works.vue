@@ -1,6 +1,6 @@
 <template>
 
-  <v-layout row wrap >
+  <v-row fluid no-gutters>
    
     <v-flex v-for="item in items_int" :key="item.title" xs12 sm6 md3>
       <v-hover>
@@ -29,7 +29,7 @@
 
       </v-hover>
     </v-flex>
-  </v-layout>
+  </v-row>
 
 </template>
 
