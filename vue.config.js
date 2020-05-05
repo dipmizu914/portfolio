@@ -6,6 +6,12 @@ module.exports = {
       ? '/portfolio/'
       : '/',
   assetsDir: '',
-  outputDir:'docs'
+  outputDir:'docs',
+
+  chainWebpack: config => {
+    config.plugin('VuetifyLoaderPlugin').tap(args => [{
+      progressiveImages: true
+    }])
+  }
   
 }
