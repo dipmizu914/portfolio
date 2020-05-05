@@ -41,7 +41,6 @@ export default {
         { title: 'Realtime Realistic VTuber engine', image: 'vtuber.jpg', desc: 'Vulkan', link:'Vtuber'},
         { title: 'Realtime Path Tracing engine', image: 'path.jpg', desc: 'Vulkan', link:'PathEngine' },
         { title: 'AR multiplayer city building game', image: 'ARcity.jpg', desc: 'May festival @UTokyo',link:'ARcity'},
-        { title: 'AR Modeling Kit', image: 'modeling.jpg' ,link:'ARmodeling' },
         { title: 'Cherry Blossom Viewing AR', image: 'sakura.jpg', link:'ARsakura'},
       ],
       items_ext: [
