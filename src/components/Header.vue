@@ -9,7 +9,7 @@
      <v-spacer></v-spacer>
 
      <v-btn icon v-for="sns in snss" :key="sns.title" :href="sns.path" target="_blank" rel="noopener noreferrer">
-       <v-icon>{{ sns.icon }} </v-icon>
+         <font-awesome-icon :icon="['fab', sns.icon]" size="2x" />
      </v-btn>
 
      <template v-slot:extension>

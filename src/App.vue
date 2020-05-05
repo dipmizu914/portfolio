@@ -53,17 +53,17 @@ import Header from './components/Header.vue'
         snss:[
           {
           title:'facebook',
-          icon: 'fab fa-facebook',
+          icon: 'facebook',
           path: 'https://www.facebook.com/kentaro.fukamizu.96'
           },
           {
           title:'linkedin',
-          icon: 'fab fa-linkedin-in',
+          icon: 'linkedin',
           path: 'https://www.linkedin.com/in/健太郎-深水-221a5a186'
           },
           {
           title:'github',
-          icon: 'fab fa-github',
+          icon: 'github',
           path: 'https://github.com/dipmizu914'
           }
         ]
