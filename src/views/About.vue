@@ -18,7 +18,7 @@
         <p class="font-weight-light">Kentaro Fukamizu is belonging to Graduate School of Information Science and
           Technology, The University of Tokyo.<br>
           He likes CG and computer vision.<br>
-          If you want to contact him, you can use DM on twitter or send me an e-mail to
+          If you want to contact him, you can send me an e-mail to
           <code>dipmizu(at)gmail.com</code>
         </p>
       </v-container>
