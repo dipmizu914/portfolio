@@ -35,14 +35,14 @@
         computed:{
             width: function(){
                 if(this.$vuetify.breakpoint.smAndDown){
-                    return 400
+                    return 350
                 }else{
                     return 560
                 }
             },
             height: function(){
                 if(this.$vuetify.breakpoint.smAndDown){
-                    return 225
+                    return 197
                 }else{
                     return 315
                 }
