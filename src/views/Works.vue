@@ -6,7 +6,7 @@
       <v-hover>
          
         <v-card tile slot-scope="{hover}" :to="item.link"> 
-            <v-img :lazy-src="require('@/assets/works/' + item.image)" aspect-ratio=1.0 > 
+            <v-img :src="require('@/assets/works/' + item.image)" aspect-ratio=1.0 > 
               <div class="fill-height" :class="hover ? 'bottom-gradient' : 'none'" >
                 <v-card-title v-if="hover" class="white--text headline font-weight-light" >{{item.title}}</v-card-title>
                 <v-card-text v-if="hover" class="white--text caption font-weight-light">{{item.desc}}</v-card-text>
