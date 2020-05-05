@@ -52,11 +52,6 @@ import Header from './components/Header.vue'
 
         snss:[
           {
-          title:'twitter',
-          icon: 'fab fa-twitter',
-          path: 'https://twitter.com/dipukamin'
-          },
-          {
           title:'facebook',
           icon: 'fab fa-facebook',
           path: 'https://www.facebook.com/kentaro.fukamizu.96'
