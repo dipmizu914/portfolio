@@ -8,7 +8,7 @@
         <v-container></v-container>
 
         <h1 class="Display-3 font-weight-medium mb-3">Description</h1>
-        <h4 class="font-weight-light mx-12">We exhibited a multiplayer AR city building game at the May Festival@UTokyo.
+        <h4 class="font-weight-light md-mx-12">We exhibited a multiplayer AR city building game at the May Festival@UTokyo.
             Although the demo video is a solo play, we connected at most five iPads via TCP/IP to share the condition of
             city building between devices in the day of exhibition.
             At that time, there was no API to synchronize coordinates between devices, so I implemented an original

@@ -9,7 +9,7 @@
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
         
         <h1 class="Display-3 font-weight-medium my-3">Description</h1>
-        <h4 class="font-weight-light mx-12">Path tracing is a technique that can produce global illumination,
+        <h4 class="font-weight-light md-mx-12">Path tracing is a technique that can produce global illumination,
             refraction and reflection more faithfully in CG than conventional methods, and widely used in CG movies and
             games.
             I implement a real-time past tracing engine using <code>VK_KHR_ray_tracing</code> extension of Vulkan. I

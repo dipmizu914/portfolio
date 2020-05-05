@@ -9,7 +9,7 @@
                 allowfullscreen></iframe>
             <v-container></v-container>
             <h1 class="Display-3 font-weight-medium mb-3">Description</h1>
-            <h4 class="font-weight-light mx-12">I create a VTuber engine that reflects the three-axis rotation of the
+            <h4 class="font-weight-light md-mx-12">I create a VTuber engine that reflects the three-axis rotation of the
                 face in real time to a 3DCG scene by combining my path tracing engine and some image processing methods.
                 As a future work, I intend to implement skinning so as to reflect information on facial expressions.<br>
                 In the future, I will expect to realize comfortable telework in virtual offices, schools, etc., by mapping
