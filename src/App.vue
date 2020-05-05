@@ -16,7 +16,7 @@
         </router-view>
       </v-fade-transition>
     </v-content>
-    <v-footer app dark absolute color="primary">
+    <v-footer app dark color="primary">
       <v-flex text-center>
         <h4 class="font-weight-light">&copy; 2020 - Kentaro Fukamizu</h4>
       </v-flex>
