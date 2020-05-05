@@ -19,7 +19,7 @@
             <h1 class="Display-3 font-weight-medium mb-3">What I Did</h1>
             <h4 class="font-weight-light">CG Programming (C++, Vulkan, GLSL)<br>
                 Face Detection (OpenCV, Dlib)<br>
-                This engine is based on my previous work.
+                This engine is based on <router-link to="/PathEngine">my previous work</router-link>.
             </h4>
         </v-layout>
     </v-container>
