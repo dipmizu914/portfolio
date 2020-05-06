@@ -15,7 +15,6 @@ library.add(faLinkedin);
 
 Vue.use(Vuetify);
 export default new Vuetify({
-    
     theme: {
         primary: colors.indigo.base,
         secondary: colors.purple.base,
@@ -26,7 +25,7 @@ export default new Vuetify({
         success: colors.green.base,
     },
     icons:{
-        iconfont:'faSvg',
+        iconfont:'mdi'
     }
 });
 

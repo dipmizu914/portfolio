@@ -2,7 +2,7 @@
    <v-app-bar app color="primary" dark elevate-on-scroll>
      <v-toolbar-title>
        <v-avatar class="mr-2">
-         <img :src="require('../assets/avatar.jpg')" />
+         <v-img :src="require('../assets/avater.png')" />
        </v-avatar>
        Kentaro Fukamizu's portfolio
      </v-toolbar-title>
@@ -31,41 +31,6 @@
      props: {
        views: Array,
        snss: Array
-     },
-     data() {
-       return {
-         active: 'tabA',
-         position: {
-           tabA: null,
-           tabB: null,
-         },
-       }
-     },
-     mounted() {
-       // イベントリスナの追加
-       window.addEventListener('scroll', this.handleScroll);
-     },
-     destroyed() {
-       // イベントリスナの削除
-       window.removeEventListener('scroll', this.handleScroll);
-     },
-     methods: {
-       handleScroll() {
-         // 現在アクティブなタブのスクロール位置を保持
-         this.position[this.active] = window.scrollY;
-       }
-     },
-     watch: {
-       // activeの変更を検知
-       active() {
-         // 切り替え後のタブですでに保持されたスクロール位置があればその位置を取得
-         const y = this.position[this.active] || 0;
-
-         // 即時スクロールすると、切り替え前のタブの長さ ＜ 切り替え後のタブの長さである場合に、切り替え前のタブの最大値までしかスクロールされないことがある（切り替え後のタブの内容が描画される前にスクロールしようとする）ので、setTimeoutでタイミングを少しずらす
-         setTimeout(() => {
-           window.scroll(0, y);
-         }, 200);
-       },
      },
    }
  </script>
