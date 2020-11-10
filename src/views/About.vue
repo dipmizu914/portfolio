@@ -141,7 +141,7 @@
             Masatoshi Ishikawa: ElaMorph Projection: Deformation of 3D Shape by
             Dynamic Projection Mapping, International Symposium on Mixed and
             Augmented Reality (ISMAR2020), Recife, Brazil (Virtual conference),
-            9-13 Nov. (2020) (to appear)
+            9-13 Nov. (2020)
           </p>
         </v-container>
       </v-container>
