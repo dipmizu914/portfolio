@@ -98,6 +98,12 @@ export default {
       ],
       items_ext: [
         {
+          title: "ReSTIR on Vulkan",
+          image: "sponza.jpg",
+          desc: "Vulkan",
+          link: "https://github.com/dipmizu914/ReSTIR_on_Vulkan",
+        },
+        {
           title: "Deformation of 3D Shape by Projection Mapping",
           image: "elamorph.png",
           link: "http://ishikawa-vision.org/vision/ElaMorph/",
