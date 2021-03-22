@@ -114,6 +114,12 @@ export default {
           link: "http://ishikawa-vision.org/vision/LentiDPM/index-e.html",
         },
         {
+          title: "Polarimetric Renderer on Vulkan",
+          image: "pBRDF.png",
+          desc: "Vulkan",
+          link: "https://zenn.dev/dipukamin/articles/3ae9980782a186",
+        },
+        {
           title: "Website of the club",
           image: "prism.png",
           link: "http://gprism.webcrow.jp/",
