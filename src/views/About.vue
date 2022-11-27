@@ -71,7 +71,7 @@
     <v-container>
       <h2 class="display-1 font-weight-medium">Education</h2>
       <v-container>
-        <v-layout align-left>Apr. 2020 - Current</v-layout>
+        <v-layout align-left>Apr. 2020 - Mar. 2021</v-layout>
         <p class="font-weight-light">
           The University of Tokyo.
           <br />MS, Graduate School of Information Science and Technology (
@@ -142,6 +142,9 @@
             Dynamic Projection Mapping, International Symposium on Mixed and
             Augmented Reality (ISMAR2020), Recife, Brazil (Virtual conference),
             9-13 Nov. (2020)
+          </p>
+          <p class="subtitle-1 font-weight-light mt-2 mb-auto">
+            Leo Miyashita, <b class="font-weight-bold">Kentaro Fukamizu</b>, Yuki Kubota, Tomohiko Hayakawa, Masatoshi Ishikawa: Real-time animation display based on optical illusion by overlaid luminance changes, SPIE Optical Architectures for Displays and Sensing in Augmented, Virtual, and Mixed Reality (AR, VR, MR) IV, Oral, San Francisco, California, USA, 30 Jan.-1 Feb. (2023) 
           </p>
         </v-container>
       </v-container>
